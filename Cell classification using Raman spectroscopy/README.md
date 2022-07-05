@@ -1,0 +1,3 @@
+### This project was an attempt to solve the challenge here [https://github.com/broadinstitute/raman_classifier_challenge](https://github.com/broadinstitute/raman_classifier_challenge)
+
+In this challenge, you will build a model for classifing cells exposed to different nutrient concentrations. Individual cells exhibit a variety of states, for example, if they are exposed to high concentration of nutrients vs they are starving. One way to extract the cell state is to look at the cell's Raman spectrum (Raman is pronounced Rah-muhn). Here, we will provide you with a dataset of Raman spectra emitted by cells fed with different amounts of nutrient. Can you predict the nutrient concentration of a cell from its Raman spectrum?
