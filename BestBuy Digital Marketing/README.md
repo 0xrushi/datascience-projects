@@ -1,7 +1,6 @@
 # Best Buy Sales Marketing
-## INFO7374-Algorithmic Digital Marketing - Final Project
 
-![Alt Text](https://github.com/rushic24/datascience-projects/tree/main/BestBuy%20Digital%20Marketing/Images/BEST%20BUY.png)
+![Alt Text](https://github.com/rushic24/datascience-projects/blob/main/BestBuy%20Digital%20Marketing/Images/BEST%20BUY.png)
 <br/>
 
 ## Purpose
@@ -9,16 +8,9 @@ The global consumer electronics e-commerce market is expected to grow from $282.
 Consumers are shifting from offline to online shopping, and this factor is the key driving factor of the consumer electronics e-commerce market. 
 The stakeholders for our Application are the Decision Makers at Best Buy <br/>
 
-<b>Claat -</b> https://codelabs-preview.appspot.com/?file_id=1Ewn3JD5UzfQQh1AWXfZ9d3jPKBuVexSPUzFezK-Og4s#15 <br/>
-<b>React App -</b> https://bestbuyap-24e00.web.app/ <br/>
+<b>React App -</b> https://bestbuyap-378ds4.web.app/ <br/>
 
 <b>Note-</b> The React App may not seem to work.<br/>
-
-<b>Step1:</b> (Google Chrome) Click on Not Secure -> Site Settings<br/>
-![Alt Text](https://github.com/rushic24/datascience-projects/tree/main/BestBuy%20Digital%20Marketing/Images/ReactAppStep1.jpg)
-
-<b>Step2:</b> <br/> Change Insecure Content from Block(default) -> Allow<br/>
-![Alt Text](https://github.com/rushic24/datascience-projects/tree/main/BestBuy%20Digital%20Marketing/Images/ReactAppStep2.jpg)<br/>
 ## Objectives
 <ul>
 <li>Identify the proposed trend in electronic sales</li>
@@ -31,7 +23,7 @@ The stakeholders for our Application are the Decision Makers at Best Buy <br/>
 
 
 ## Architecture
-![Alt Text](https://github.com/rushic24/datascience-projects/tree/main/BestBuy%20Digital%20Marketing/Images/Architecture.jpg)
+![Alt Text](https://github.com/rushic24/datascience-projects/blob/main/BestBuy%20Digital%20Marketing/Images/Architecture.jpg)
 
 ## Data Preprocessing
 
@@ -46,7 +38,7 @@ This folder contains the Data generated and the code.<br/>
 
 ## RFM Analysis
 
-![Alt Text](https://github.com/rushic24/datascience-projects/tree/main/BestBuy%20Digital%20Marketing/Images/RFM%20Analysis.jpg)<br/>
+![Alt Text](https://github.com/rushic24/datascience-projects/blob/main/BestBuy%20Digital%20Marketing/Images/RFM%20Analysis.jpg)<br/>
 RFM stands for Recency, Frequency, and Monetary. It is the easiest form of customer database segmentation and is based on user activity data. RFM segmentation can be applied to activity-related data that has measurable value and repeatable. Therefore, it is a perfect strategy for eCommerce, because purchase history and website visits can be measured and tracked. Let’s look at each of the RFM components in more detail:<br/>
 
 1.<b>Recency:</b> Recency is the most important predictor of who is more likely to respond to an offer. Customers who have purchased recently from you are more likely to purchase again from you compared to those who did not purchase recently.<br/>
@@ -58,19 +50,19 @@ RFM stands for Recency, Frequency, and Monetary. It is the easiest form of custo
 After predicting the next purchase date of the customer our strategy should be to expedite the purchase by the customer.<br/>
 We have created different strategies on the basis of prediction and RFM scores<br/>
 
-![Alt Text](https://github.com/rushic24/datascience-projects/tree/main/BestBuy%20Digital%20Marketing/Images/Promotional%20Campaign.jpg)<br/>
+![Alt Text](https://github.com/rushic24/datascience-projects/blob/main/BestBuy%20Digital%20Marketing/Images/Promotional%20Campaign.jpg)<br/>
 
 On the basis of next purchase prediction and RFM Analysis we will be sending 3 different Mails for different customers.<br/>
 1. 
-![Alt Text](https://github.com/rushic24/datascience-projects/tree/main/BestBuy%20Digital%20Marketing/Images/More50.jpg)<br/><br/>
+![Alt Text](https://github.com/rushic24/datascience-projects/blob/main/BestBuy%20Digital%20Marketing/Images/More50.jpg)<br/><br/>
 Mail sent to the user:<br/>
-![Alt Text](https://github.com/rushic24/datascience-projects/tree/main/BestBuy%20Digital%20Marketing/Images/Mail50.jpg)<br/><br/>
+![Alt Text](https://github.com/rushic24/datascience-projects/blob/main/BestBuy%20Digital%20Marketing/Images/Mail50.jpg)<br/><br/>
 
 2. 
-![Alt Text](https://github.com/rushic24/datascience-projects/tree/main/BestBuy%20Digital%20Marketing/Images/Mail20to50.jpg)<br/><br/>
+![Alt Text](https://github.com/rushic24/datascience-projects/blob/main/BestBuy%20Digital%20Marketing/Images/Mail20to50.jpg)<br/><br/>
 
 3. 
-![Alt Text](https://github.com/rushic24/datascience-projects/tree/main/BestBuy%20Digital%20Marketing/Images/MailWithin20.jpg)
+![Alt Text](https://github.com/rushic24/datascience-projects/blob/main/BestBuy%20Digital%20Marketing/Images/MailWithin20.jpg)
 
 ## Customer Lifetime Value and Churn Rate Calculation
 
@@ -98,28 +90,28 @@ Customer lifetime value (CLTV) can help you to answers the most important questi
 
 If a customer crosses his predicted purchase date, his CLV will be checked.<br/>
 If the CLV is lower than the quantile of the churn rate then he wil be dropped from the promotion pool<br/>
-![Alt Text](https://github.com/rushic24/datascience-projects/tree/main/BestBuy%20Digital%20Marketing/Images/CLVremovedpool.jpg)
+![Alt Text](https://github.com/rushic24/datascience-projects/blob/main/BestBuy%20Digital%20Marketing/Images/CLVremovedpool.jpg)
 
 If his CLV is higher that the quantile of the churn rate then he will be awarded with a coupon eligible for a week.<br/>
 If he still doesnt purchase anything. He will be removed from the promotion pool.<br/>
 
-![Alt Text](https://github.com/rushic24/datascience-projects/tree/main/BestBuy%20Digital%20Marketing/Images/CLVPromo.jpg)
+![Alt Text](https://github.com/rushic24/datascience-projects/blob/main/BestBuy%20Digital%20Marketing/Images/CLVPromo.jpg)
 
 Following Promotional Mail will be sent to the customer.<br/>
-![Alt Text](https://github.com/rushic24/datascience-projects/tree/main/BestBuy%20Digital%20Marketing/Images/PromoMail.jpg)
+![Alt Text](https://github.com/rushic24/datascience-projects/blob/main/BestBuy%20Digital%20Marketing/Images/PromoMail.jpg)
 
 
 ## Amazon SES
 To generate the promotional mails we've used Amazon SES.
 Amazon Simple Email Service (SES) is a cost-effective, flexible, and scalable email service that enables developers to send mail from within any application.<br/>
 
-![Alt Text](https://github.com/rushic24/datascience-projects/tree/main/BestBuy%20Digital%20Marketing/Images/AWS%20SMTP/step-1.png)
+![Alt Text](https://github.com/rushic24/datascience-projects/blob/main/BestBuy%20Digital%20Marketing/Images/AWS%20SMTP/step-1.png)
 
 ## Data Retrieval from AWS S3 Bucket
 Data has already been uploaded on S3 bucket<br/>
-![Alt Text](https://github.com/rushic24/datascience-projects/tree/main/BestBuy%20Digital%20Marketing/Images/S3Bucket.png)<br>
+![Alt Text](https://github.com/rushic24/datascience-projects/blob/main/BestBuy%20Digital%20Marketing/Images/S3Bucket.png)<br>
 To get the Data from S3 bucket run the below code<br/><br/>
-![Alt Text](https://github.com/rushic24/datascience-projects/tree/main/BestBuy%20Digital%20Marketing/Images/S3code.jpg)<br/>
+![Alt Text](https://github.com/rushic24/datascience-projects/blob/main/BestBuy%20Digital%20Marketing/Images/S3code.jpg)<br/>
 
 ### React App
 
